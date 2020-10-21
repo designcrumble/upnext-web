@@ -1,0 +1,33 @@
+{
+  "name": "fl-able",
+  "version": "1.0.0",
+  "description": "upnext",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designcrumble/upnext.git"
+  },
+  "author": "kshitij",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/designcrumble/upnext/issues"
+  },
+  "homepage": "https://github.com/designcrumble/upnext#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "resolutions": {
+    "**/**/node-gyp": "5.0.0"
+  },
+  "dependencies": {
+    "natives": "^1.1.6",
+    "node-sass": "^4.14.1"
+  },
+  "optionalDependencies": {}
+}

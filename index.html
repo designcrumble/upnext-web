@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metatags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UpNext Music App</title>    
+    <!-- SEO tags -->
+    <meta name="description" content="UpNext Music App">
+    <meta name="author" content="The UpNext Music App" />
+    <!--[if IE]><link rel="shortcut icon" href="/assets/favicon.png"><![endif]-->
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="upnext music app">
+    <meta itemprop="description" content="Streamline fan engagement with UpNext Artist Contests &amp; Campaigns!">
+    <meta itemprop="image" content="/assets/img/social.png">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="www.flexplat.es">
+    <meta name="twitter:title" content="upnext music app">
+    <meta name="twitter:description" content="UpNext Music App">
+    <meta name="twitter:creator" content="@upnext music app">
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="/assets/img/social.png">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="UpNext Music App" />
+    <meta property="og:type" content="Website" />
+    <meta property="og:url" content="https://www.theupnext.com" />
+    <meta property="og:image" content="/assets/img/social.png" />
+    <meta property="og:description" content="Streamline fan engagement with UpNext Artist Contests &amp; Campaigns!" />
+    <meta property="og:site_name" content="UpNext Music App" />
+    <!-- Icons, Fonts and Stylesheets-->
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=DMr+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main class="body-container">
+        <!-- Modal -->
+        <div id="signup-modal" class="modal">
+                <div class="auth-module">
+                        <h3>Sign Up to Save Your Earnings</h3>
+                        <form action="">
+                                <input type="text" placeholder="Your Display Name">
+                                <input type="email" placeholder="Your Email Address">
+                                <input type="password" placeholder="New Password">
+                                <input type="password" placeholder="Confirm Password">
+                            <input type="submit" value="Continue" id="" class="btn btn--primary">
+                            <div class="shared-links">
+                                <a href="#" rel="modal:close">Sign Up with phone number instead</a>
+                            </div>
+                        </form>
+                    </div>   
+            
+        </div>           
+        <!-- Sidebar Nav -->
+        <div class="mobile-nav">
+                <a href="/">
+                    <img src="/assets/img/1/upnext-logo.svg" alt="UpNext">
+                </a>
+                <div class="hamburger" onclick="toggleNav();">
+                    <img src="/assets/img/1/menu.svg"  id="menu-icon">
+                </div>
+        </div>        
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-content">
+                    <div class="top-nav">
+                            <a href="/">
+                                <img src="/assets/img/1/upnext-logo.svg" alt="UpNext">
+                            </a>
+                            <div class="toggle-menu-btn" onclick="toggleNav();">
+                                    <img src="/assets/img/1/menu.svg">
+                            </div>                               
+                        </div>
+            </div>
+
+            <div class="bottom-settings">
+                <div class="profile-container whats-upnext">
+                    <div class="upnext-title">What’s UpNext?</div>
+                    <div class="upnext-description">Upnext Music App Streamlines Fan Engagement Through Contests That Compliment New & Old Releases.</div>
+                    <ul class="upnext-benefits">
+                        <li><img src="/assets/img/1/tick.svg" alt=""><span>PROMOTE A RELEASE</span></li>
+                        <li><img src="/assets/img/1/tick.svg" alt=""><span>GET REAL STREAMS &amp; FEEDBACK ON YOUR MUSIC</span></li>
+                        <li><img src="/assets/img/1/tick.svg" alt=""><span>SELL TIX &amp; MERCH</span></li>
+                    </ul>
+                    <div class="profile-actions-container">
+                        <a href="/" style="padding: none; margin: none; border: none;">Learn More</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <ul class="footer-links">
+                        <li><a href="/" class="footer-link">Create a Contest</a></li>
+                        <li><a href="#signup-modal" rel="modal:open" class="footer-link">Sign up</a></li>
+                        <li><a href="/" class="footer-link">Help</a></li>                        
+                    </ul>
+                    <span class="footer-copyright">© 2020 The UpNext, Inc.</span>
+                </div>
+            </div>
+        </div>
+        <!-- App Content  -->
+        <div class="contest-wrapper" id="app">
+            <div class="contest-container contest-start">
+                <div class="contest-brand-bg"></div>
+                <div class="contest-meta-container">
+                        <div class="contest-brand-meta">
+                                <div class="contest-brand-thumb">
+                                    <img src="/assets/img/1/brand-icon.png" alt="">
+                                </div>
+                                <div class="contest-title-prize">
+                                    <div class="contest-title">The A$AP Mob: Cozy Tapes contest</div>
+                                    <div class="contest-prize-chip">
+                                        <span class="icon"><img src="/assets/img/1/upnext-coin.svg" alt=""></span>
+                                        <span class="prize">5,000</span>
+                                    </div>
+                                </div>
+                            </div>
+                </div> 
+
+                <div class="contest-description">How well do you know A$AP Mob and Cozy Tapes? Get a perfect score of 5,000 UpBucks for the chance to win exclusive AWGE merch.</div>
+
+                <div class="contest-conditions">
+                    <div class="title">1 winner will receive a $25 Visa Gift Card from Amazon</div>
+                    <div class="contest-conditions-list">
+                        <div class="contest-conditions-list-item">
+                            <div class="icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="12" r="12" fill="#1DA5F3"/>
+                                    <path d="M10.088 14.312L7.59995 11.824L6.75195 12.672L10.088 16L17.248 8.84L16.4 8L10.088 14.312Z" fill="#FAFAFA"/>
+                                </svg>
+                            </div>
+                            <span>1 winner will receive a $25 Visa Gift Card from Amazon</span>
+                        </div>
+                        <div class="contest-conditions-list-item">
+                                <div class="icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12" cy="12" r="12" fill="#1DA5F3"/>
+                                        <path d="M10.088 14.312L7.59995 11.824L6.75195 12.672L10.088 16L17.248 8.84L16.4 8L10.088 14.312Z" fill="#FAFAFA"/>
+                                    </svg>
+                                </div>
+                                <span>1 winner will receive a $25 Visa Gift Card from Amazon</span>
+                            </div>                        
+                    </div>
+                </div>
+
+                <div class="contest-action-container">
+                    <button>Let's Go!</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />        
+    <script src="/assets/js/scripts.js"></script>
+</body>
+</html>
