@@ -67,10 +67,13 @@
   text-align: center;
   letter-spacing: -0.25px;
   color: #FAFBFC;
-  margin-top: 12px; }
+  margin-top: 24px; }
   .upbucks-chip span.prize {
     margin-left: 6px;
     margin-right: 4px; }
+  @media (min-width: 768px) {
+    .upbucks-chip {
+      margin-top: 12px; } }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -1338,6 +1341,33 @@ input[type="submit"] {
     #signup-modal {
       padding: 40px 32px; } }
 
+.contest-validation {
+  border-radius: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  padding: 12px 16px;
+  top: -20px;
+  width: 100%;
+  z-index: 1; }
+  .contest-validation .icon {
+    position: absolute;
+    left: 12px; }
+  .contest-validation--error {
+    background: #FD685E; }
+  .contest-validation--success {
+    background: #53C22B; }
+
 button {
   border: none;
   transition: all 0.4s ease; }
@@ -1353,7 +1383,8 @@ html, body {
 body {
   position: relative;
   overflow-x: hidden;
-  height: fit-content; }
+  height: fit-content;
+  background: white; }
 
 .body-container {
   overflow-x: hidden;
@@ -1366,9 +1397,6 @@ body {
   @media (min-width: 768px) {
     .body-container {
       padding: 0px; } }
-
-body {
-  background: white; }
 
 .hide-on-mobile {
   display: none; }

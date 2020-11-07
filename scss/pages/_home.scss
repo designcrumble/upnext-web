@@ -7,6 +7,7 @@ body {
 	position: relative;
 	overflow-x: hidden;
 	height: fit-content;
+	background: white;
 }
 
 .body-container {
@@ -21,9 +22,6 @@ body {
 	@include respond-to('medium') {
 		padding: 0px;
 	}
-}
-body {
-	background: white;
 }
 
 .hide-on-mobile {

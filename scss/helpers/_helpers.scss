@@ -73,9 +73,13 @@
 	text-align: center;
 	letter-spacing: -0.25px;					
 	color: #FAFBFC;		
-	margin-top: 12px;			
+
+	margin-top: 24px;			
 	span.prize {
 		margin-left: 6px;
 		margin-right: 4px;
+	}
+	@include respond-to('medium') {
+		margin-top: 12px;		
 	}
 }
