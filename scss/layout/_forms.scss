@@ -1,5 +1,7 @@
 
 input[type="submit"] {
+    -webkit-appearance: none;
+    border-radius: 0;
     outline: none;
     border: none;
     cursor: pointer;   
@@ -285,6 +287,8 @@ input[type="submit"] {
 			}
 		}
 		input[type="submit"] {
+            -webkit-appearance: none;
+            border-radius: 0;
 			background: #136EFB;
 			border-radius: 3px;
 			font-style: normal;

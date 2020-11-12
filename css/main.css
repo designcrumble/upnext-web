@@ -1075,6 +1075,8 @@ img {
     order: 1; } }
 
 input[type="submit"] {
+  -webkit-appearance: none;
+  border-radius: 0;
   outline: none;
   border: none;
   cursor: pointer;
@@ -1322,6 +1324,8 @@ input[type="submit"] {
       .auth-module form .input-group.input-phone-number .phone-field-overlay span {
         margin-left: 4px; }
   .auth-module form input[type="submit"] {
+    -webkit-appearance: none;
+    border-radius: 0;
     background: #136EFB;
     border-radius: 3px;
     font-style: normal;
